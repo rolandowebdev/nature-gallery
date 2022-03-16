@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .buku {
+    @apply md:bg-blue-300 lg:bg-red-200;
+  }
+
+  .nama {
+    @apply text-sky-300 md:text-sky-500;
+  }
+}
